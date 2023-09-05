@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.logo{
+    width: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none
+}
+li{
+    list-style: none;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+li :hover{
+    color: aqua;
+}
+button{
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 0%;
+    border-color: none;
+}
+.left, .right{
+    justify-content: space-around;
+    display: flex;
+    padding-top: 10px;
+}
+.right{
+    padding-right: 40px;
+}
+.left{
+    padding-left: 20px;
+}
+body{
+    background: url(./images/Phone\ background\ in\ circle.jpg) no-repeat scroll;
+    background-size: cover;
+}
+.box-x{
+    width: 25%;
+    height: 25%;
+}
+.box{
+    color: aliceblue;
+    display: flex;
+    /* grid-template-columns: repeat(1fr, 3) */
+
+}
+#upper{
+    background-color: white;
+}
+.family{
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-left: 900px;
+
+
+}
+
+p{
+    padding-top: 20px;
+    width: 350px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+#second{
+    color: white;
+    padding-right: 100px;
+}
